@@ -1,0 +1,386 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  border: border-box;
+  color: #fff;
+}
+html {
+  background-color: black;
+  overflow-x: hidden;
+}
+
+.app {
+  height: 100vh;
+  width: 100vw;
+}
+.heading {
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+.image {
+  height: 15vh;
+}
+.logo {
+  width: 20%;
+  margin-right: 220px;
+}
+
+.first,
+.second {
+  width: 180px;
+  height: 8vh;
+  margin-right: 70px;
+  color: black;
+  background-color: #fff;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+#login {
+  position: absolute;
+  z-index: 3;
+  right: 260px;
+}
+
+button {
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+}
+#icon {
+  color: black;
+  font-size: 19px;
+  margin-right: 20px;
+}
+.login {
+  height: 50%;
+  width: 30%;
+
+  margin: 70px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: black;
+  color: #fff;
+  z-index: 2;
+  display: block;
+  margin-top: 150px;
+  margin-right: 50px;
+
+  opacity: 0;
+}
+.log {
+  position: relative;
+  bottom: 0px;
+  left: 200px;
+}
+form {
+  padding-right: 130px;
+  display: flex;
+  flex-direction: column;
+
+  gap: 25px;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  margin-left: 15px;
+}
+.name,
+.password {
+  width: 350px;
+  height: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: black;
+  margin-left: 25px;
+  font-weight: 700;
+  outline: none;
+  border: none;
+}
+.btn {
+  width: 350px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: blue;
+  color: #fff;
+  margin-top: 15px;
+  margin-left: 25px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+}
+.register {
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  margin-left: 400px;
+  display: none;
+
+  z-index: 2;
+  opacity: 1;
+}
+.reg {
+  position: relative;
+  left: 165px;
+}
+.hero-section {
+  height: 400px;
+  width: 100vw;
+
+  display: flex;
+
+  position: relative;
+  top: 25px;
+  z-index: 1;
+}
+.picture-section {
+  height: 340px;
+  width: 460px;
+  float: right;
+  position: relative;
+  top: 25px;
+  margin-left: 30px;
+
+  border-radius: 10px;
+  background-image: url("bgpic3.jpg");
+  background-size: cover;
+}
+.description {
+  margin-left: 35px;
+  margin-top: 90px;
+  font-size: 1.7rem;
+
+  width: 800px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+}
+.hero-section2 {
+  height: 400px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row-reverse;
+
+  position: relative;
+  top: 35px;
+}
+.picture-section2 {
+  height: 340px;
+  width: 460px;
+
+  margin-top: 25px;
+  background-image: url("bgpic5.jpg");
+  background-size: cover;
+  border-radius: 15px;
+  margin-right: 50px;
+}
+
+.description2 {
+  margin-top: 90px;
+  font-size: 1.9rem;
+  margin-right: 50px;
+
+  width: 700px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+}
+.box-section {
+  width: 100%;
+
+  margin-top: 85px;
+}
+.service {
+  text-align: center;
+  font-size: 2rem;
+}
+.box {
+  height: 45vh;
+  width: 20vw;
+
+  background-size: cover;
+  border-radius: 10px;
+}
+.boxes {
+  width: 100%;
+
+  display: flex;
+  gap: 40px;
+  justify-content: space-evenly;
+  margin-top: 25px;
+  flex-wrap: wrap;
+  background-size: cover;
+}
+.last-form {
+  width: 100vw;
+
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.book {
+  margin-right: 50px;
+}
+.after {
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  color: #fff;
+  display: none;
+  margin-left: 300px;
+}
+li {
+  font-size: 1.9rem;
+}
+.list {
+  font-size: 2rem;
+}
+.foot {
+  width: 100vw;
+
+  display: flex;
+  justify-content: space-evenly;
+  gap: 15px;
+  margin-top: 45px;
+}
+p {
+  font-size: 1.5rem;
+  margin-top: 25px;
+  font-weight: 600;
+}
+.foot h2 {
+  font-size: 1.9rem;
+}
+.copyright {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.social-media {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  font-size: 1.2rem;
+}
+#lasticon {
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+@media (max-width: 395px) {
+  .logo {
+    width: 0%;
+    margin-right: 180px;
+  }
+  .first,
+  .second {
+    width: 100px;
+    height: 6vh;
+    margin-right: 40px;
+    color: black;
+    background-color: #fff;
+    border-radius: 9px;
+    margin-top: 20px;
+    font-size: 0.8rem;
+  }
+  .first {
+    position: absolute;
+    left: 160px;
+    width: 80px;
+  }
+  .second {
+    width: 160px;
+    padding: 3px;
+    height: 6vh;
+  }
+  .description {
+    margin-left: 15px;
+    margin-top: 90px;
+
+    font-size: 0.7rem;
+
+    width: 500px;
+    height: 150px;
+  }
+  .image {
+    height: 9vh;
+  }
+  .login {
+    position: relative;
+    right: 190px;
+    height: 30%;
+    width: 5%;
+  }
+  .register {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    margin-left: 400px;
+    display: block;
+
+    z-index: 2;
+    opacity: 1;
+  }
+  .picture-section {
+    height: 240px;
+    width: 360px;
+    float: right;
+    position: relative;
+    top: 25px;
+    margin-left: 10px;
+
+    border-radius: 10px;
+    background-image: url("bgpic3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .hero-section {
+    height: 400px;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    top: 25px;
+    z-index: 1;
+  }
+  .description {
+    height: 11vh;
+    width: 100vw;
+
+    font-size: 0, 7rem;
+    margin-right: 40px;
+  }
+  .hero-section2 {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 100vw;
+
+    position: relative;
+    top: 35px;
+  }
+  .picture-section2 {
+    height: 640px;
+    width: 360px;
+  }
+}
